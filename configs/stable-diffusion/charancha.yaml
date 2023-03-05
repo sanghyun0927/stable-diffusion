@@ -95,7 +95,7 @@ data:
         - "car in photozone"
         - "car"
         output_size: 512
-        n_gpus: 1 # small hack to sure we see all our samples
+        n_gpus: 2 # small hack to sure we see all our samples
 
 
 lightning:
@@ -118,7 +118,7 @@ lightning:
         log_all_val: True
         log_images_kwargs:
           use_ema_scope: True
-          inpaint: False
+          inpaint: True
           plot_progressive_rows: False
           plot_diffusion_rows: False
           N: 4
