@@ -92,12 +92,10 @@ data:
       target: ldm.data.simple.TextOnly
       params:
         captions:
-        - "A pokemon with green eyes, large wings, and a hat"
-        - "A cute bunny rabbit"
-        - "Yoda"
-        - "An epic landscape photo of a mountain"
+        - "car in photozone"
+        - "car"
         output_size: 512
-        n_gpus: 2 # small hack to sure we see all our samples
+        n_gpus: 1 # small hack to sure we see all our samples
 
 
 lightning:
